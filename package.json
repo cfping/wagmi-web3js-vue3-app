@@ -1,0 +1,25 @@
+{
+  "name": "wagmi-web3js-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^5.62.9",
+    "@wagmi/vue": "^0.1.6",
+    "viem": "^2.21.57",
+    "vue": "^3.5.13",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}
